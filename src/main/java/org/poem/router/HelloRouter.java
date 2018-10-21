@@ -20,6 +20,6 @@ public class HelloRouter {
         return RouterFunctions
                 .route(
                         RequestPredicates.GET("/hello").and(RequestPredicates.accept(MediaType.TEXT_PLAIN)),
-                        helloHandler::handle);
+                        helloHandler);
     }
 }
