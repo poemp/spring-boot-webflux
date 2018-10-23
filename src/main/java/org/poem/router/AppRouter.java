@@ -16,7 +16,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
  * @author poem
  */
 @Configuration
-public class HelloRouter {
+public class AppRouter {
 
     @Autowired
     private HelloHandler helloHandler;
